@@ -1,0 +1,222 @@
+
+<html>
+<head>
+   
+    <!-- Título de la práctica -->
+    <title>PRACTICA 7</title>
+
+    <!-- Conexión con Google Fonts para utilizar las fuentes originales -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+        /* Estilos generales de los títulos */
+        h1, h2 {
+            font-family: "Pacifico", cursive;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        /* Diseño del título principal */
+        h1 {
+            color: blue;
+            font-size: 50px;
+            border: 5px solid;
+            border-radius: 20px;
+        }
+
+        /* Diseño del subtítulo */
+        h2 {
+            color: black;
+            font-size: 35px;
+        }
+
+        /* Diseño general de la página para computadora */
+        body {
+            font-size: 15px;
+            color: darkblue;
+            font-family: "Special Elite", monospace;
+            background-color: skyblue;
+            margin: 10px;
+        }
+
+        /* Permite que la tabla se adapte al ancho disponible */
+        table {
+            border-collapse: collapse;
+            background-color: peachpuff;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        /* Diseño de los encabezados de la tabla */
+        th {
+            font-family: "Righteous", sans-serif;
+            font-weight: normal;
+            background-color: mediumslateblue;
+            color: black;
+            font-size: 18px;
+            border: 3px solid;
+            padding: 10px;
+        }
+
+        /* Diseño de las celdas de la tabla */
+        td {
+            border: 2px solid;
+            padding: 10px;
+            text-align: center;
+            color: firebrick;
+        }
+
+        /* Diseño de los enlaces */
+        a {
+            font-family: "Righteous", sans-serif;
+            font-size: 22px;
+            color: black;
+        }
+
+        /* Evita que las imágenes superen el ancho de su celda */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Permite desplazarse horizontalmente por la tabla si es necesario */
+        .contenedor-tabla {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        /* Ajustes para teléfonos y pantallas de hasta 768 píxeles */
+        @media screen and (max-width: 768px) {
+
+            /* Cambia el fondo a rosa en dispositivos pequeños */
+            body {
+                background-color: pink;
+                margin: 8px;
+                font-size: 14px;
+            }
+
+            /* Reduce el tamaño del título principal */
+            h1 {
+                font-size: 30px;
+                border-width: 3px;
+                border-radius: 15px;
+                padding: 8px;
+            }
+
+            /* Reduce el tamaño del subtítulo */
+            h2 {
+                font-size: 23px;
+            }
+
+            /* Mantiene la tabla y permite recorrerla horizontalmente */
+            table {
+                width: 100%;
+                min-width: 650px;
+                background-color: #ffe0eb;
+            }
+
+            /* Ajusta los encabezados de la tabla para el teléfono */
+            th {
+                background-color: #f2a2c0;
+                font-size: 15px;
+                padding: 7px;
+            }
+
+            /* Ajusta las celdas para el teléfono */
+            td {
+                padding: 7px;
+                font-size: 13px;
+            }
+
+            /* Reduce el tamaño de los enlaces en pantallas pequeñas */
+            a {
+                font-size: 17px;
+            }
+        }
+
+    </style>
+</head>
+
+<!-- El fondo azul cielo se conserva como estilo original para computadora -->
+<body>
+
+    <!-- Título principal de la práctica -->
+    <h1>APLICACIONES DE IA Y SUS MODELOS</h1>
+
+    <center>
+        <!-- Subtítulo de la tabla -->
+        <h2>Tres ejemplos de aplicaciones de IA</h2>
+
+        <!-- Contenedor que permite desplazarse por la tabla en el teléfono -->
+        <div class="contenedor-tabla">
+
+            <!-- Tabla con información de las tres aplicaciones de inteligencia artificial -->
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Logo</th>
+                    <th>URL</th>
+                    <th>Descripción / Diferencia</th>
+                    <th>Modelos</th>
+                </tr>
+
+                <!-- Información correspondiente a ChatGPT -->
+                <tr>
+                    <td>ChatGPT</td>
+                    <td>
+                        <a href="https://chatgpt.com/" target="_blank">
+                            <img src="imagen/chat.png" alt="Logo de ChatGPT" width="130" height="130">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://chatgpt.com" target="_blank">chatgpt.com</a>
+                    </td>
+                    <td>Asistente conversacional de OpenAI. Muy popular y con muchas integraciones.</td>
+                    <td>Serie GPT</td>
+                </tr>
+
+                <!-- Información correspondiente a Gemini -->
+                <tr>
+                    <td>Gemini</td>
+                    <td>
+                        <a href="https://gemini.google.com/" target="_blank">
+                            <img src="imagen/gemini.png" alt="Logo de Gemini" width="180" height="130">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://gemini.google.com" target="_blank">gemini.google.com</a>
+                    </td>
+                    <td>Asistente de Google. Se integra con los servicios de Google (Gmail, Drive, etc.).</td>
+                    <td>Gemini Pro, Gemini Flash</td>
+                </tr>
+
+                <!-- Información correspondiente a Microsoft Copilot -->
+                <tr>
+                    <td>Microsoft Copilot</td>
+                    <td>
+                        <a href="https://copilot.microsoft.com/" target="_blank">
+                            <img src="imagen/copilot.png" alt="Logo de Copilot" width="130" height="130">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://copilot.microsoft.com/" target="_blank">copilot.microsoft.com</a>
+                    </td>
+                    <td>Asistente de Microsoft. Se integra con productos como Windows y Office.</td>
+                    <td>Modelos GPT de OpenAI y modelos propios de Microsoft</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <br><br>
+
+        <!-- Enlace a la segunda página, donde se encuentra el formulario -->
+        <a href="Practica5.1.html">¿Desea más información?</a>
+
+    </center>
+
+</body>
+</html>
